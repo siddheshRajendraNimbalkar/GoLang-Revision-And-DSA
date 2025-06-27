@@ -1,73 +1,161 @@
-✅ Phase 1: Basics
-📘 Concepts Covered:
-Variables, Constants
+Beginner (Basic Syntax, Variables, Functions, Loops, Conditionals)
+Hello, World!
 
-Data Types
+Write a Go program that prints "Hello, World!" to the console.
 
-Conditionals, Loops
+Swap Two Variables
 
-Arrays, Slices, Maps
+Swap two variables without using a third variable.
 
-Functions
+Check Even or Odd
 
-🧪 Tasks:
-Define a Student struct with ID, Name, Age, Email.
+Write a function to check if a number is even or odd.
 
-Write a function to add a student.
+Find the Largest of Three Numbers
 
-Write a function to list all students.
+Given three numbers, determine the largest.
 
-Use slices to store students in memory.
+Simple Calculator
 
-Implement CLI using fmt.Scanln to take input.
+Implement a simple calculator that performs addition, subtraction, multiplication, and division.
 
-✅ Phase 2: Intermediate
-📘 Concepts Covered:
-Structs & Methods
+Sum of Digits
 
-Interfaces
+Write a function that calculates the sum of digits of a given number.
 
-Error Handling
+Factorial using Recursion
 
-Custom Packages
+Implement a function to compute the factorial of a number using recursion.
 
-File I/O (JSON)
+Check Prime Number
 
-🧪 Tasks:
-Create Course struct with CourseID, Name, Credits.
+Write a function to determine if a number is prime.
 
-Create a map of StudentID to []CourseID for enrollment.
+Reverse a String
 
-Save/load student data to/from JSON file.
+Reverse a string without using built-in functions.
 
-Create custom error types (e.g., for duplicate student).
+Fibonacci Series
 
-Modularize code using packages (students, courses, utils).
+Print the Fibonacci series up to n terms.
 
-✅ Phase 3: Advanced
-📘 Concepts Covered:
-Goroutines
+Intermediate (Structs, Interfaces, Goroutines, Channels, File Handling)
+Implement a Struct for a Car
 
-Channels
+Create a Car struct with fields like Brand, Model, and Year. Write a method to print car details.
 
-Mutex (sync)
+Interfaces: Shape Area Calculation
 
-Go Modules
+Define an interface Shape with a method Area(). Implement Rectangle and Circle structs that satisfy the interface.
 
-REST API (optional)
+Goroutine to Print Numbers
 
-Database Integration (PostgreSQL or SQLite)
+Write a Goroutine that prints numbers from 1 to 10 while the main function prints letters A to J concurrently.
 
-Testing (Unit tests using testing package)
+Buffered and Unbuffered Channels
 
-🧪 Tasks:
-Add goroutine to load data from JSON files concurrently.
+Demonstrate the difference between buffered and unbuffered channels using an example.
 
-Use a mutex to avoid data race when adding students.
+Producer-Consumer Problem using Channels
 
-Replace JSON storage with PostgreSQL or SQLite (use gorm or sql package).
+Implement a producer-consumer pattern using Goroutines and channels.
 
-(Optional) Build a REST API using net/http or Gin.
+Read and Write to a File
 
-Write unit tests for student creation and enrollment.
+Write a program to create a file, write some text, and then read from it.
 
+JSON Encoding and Decoding
+
+Convert a Go struct into JSON and decode JSON back into a struct.
+
+Error Handling in Go
+
+Implement custom error handling using errors.New and fmt.Errorf.
+
+Sort a Slice of Integers
+
+Write a program that sorts a slice of integers in ascending order.
+
+HTTP Server in Go
+
+Create a simple HTTP server that handles GET and POST requests.
+
+Advanced (Concurrency, Context, Reflection, Generics, System Design)
+Concurrent Web Scraper
+
+Implement a web scraper that fetches data from multiple websites concurrently using Goroutines.
+
+Worker Pool using Goroutines
+
+Create a worker pool where multiple workers process tasks from a queue concurrently.
+
+Context with Timeout and Cancellation
+
+Write a program demonstrating context.WithTimeout and context.WithCancel.
+
+Rate Limiting using Go Channels
+
+Implement a rate limiter using Go channels and time.Sleep.
+
+Build a REST API using Gin
+
+Create a simple REST API with CRUD operations using the gin-gonic framework.
+
+Reflection in Go
+
+Write a program that inspects the type and value of different variables using reflection.
+
+Implement a Middleware in Go
+
+Create a middleware function that logs all incoming HTTP requests.
+
+Build a Microservice with gRPC
+
+Implement a gRPC-based microservice with Go.
+
+Implement a Pub-Sub System using Channels
+
+Design a basic pub-sub system where multiple subscribers listen for messages.
+
+Event-Driven Architecture with Kafka
+
+Integrate Go with Apache Kafka to build an event-driven system.
+
+Expert (Distributed Systems, Performance Optimization, Low-Level Concepts)
+Custom Memory Allocator in Go
+
+Implement a simple memory allocator using slices and pointers.
+
+Blockchain Implementation in Go
+
+Build a basic blockchain system with proof-of-work in Go.
+
+Build a Distributed Key-Value Store
+
+Design a distributed key-value store using Go’s net package.
+
+Custom Load Balancer in Go
+
+Implement a load balancer that distributes requests among multiple backend servers.
+
+Implement a Cache with LRU Eviction Policy
+
+Build a least recently used (LRU) cache using Go maps and linked lists.
+
+Write a WebAssembly (WASM) Module in Go
+
+Create a WASM module in Go and run it in a browser.
+
+Implement Paxos or Raft Consensus Algorithm
+
+Design a consensus algorithm for distributed systems.
+
+Profiling and Optimizing Go Code
+
+Use pprof to profile and optimize a slow Go program.
+
+Implement a Proxy Server in Go
+
+Write a reverse proxy server that forwards requests to different backend services.
+
+Build a Full-fledged Microservices Architecture
