@@ -1,0 +1,73 @@
+✅ Phase 1: Basics
+📘 Concepts Covered:
+Variables, Constants
+
+Data Types
+
+Conditionals, Loops
+
+Arrays, Slices, Maps
+
+Functions
+
+🧪 Tasks:
+Define a Student struct with ID, Name, Age, Email.
+
+Write a function to add a student.
+
+Write a function to list all students.
+
+Use slices to store students in memory.
+
+Implement CLI using fmt.Scanln to take input.
+
+✅ Phase 2: Intermediate
+📘 Concepts Covered:
+Structs & Methods
+
+Interfaces
+
+Error Handling
+
+Custom Packages
+
+File I/O (JSON)
+
+🧪 Tasks:
+Create Course struct with CourseID, Name, Credits.
+
+Create a map of StudentID to []CourseID for enrollment.
+
+Save/load student data to/from JSON file.
+
+Create custom error types (e.g., for duplicate student).
+
+Modularize code using packages (students, courses, utils).
+
+✅ Phase 3: Advanced
+📘 Concepts Covered:
+Goroutines
+
+Channels
+
+Mutex (sync)
+
+Go Modules
+
+REST API (optional)
+
+Database Integration (PostgreSQL or SQLite)
+
+Testing (Unit tests using testing package)
+
+🧪 Tasks:
+Add goroutine to load data from JSON files concurrently.
+
+Use a mutex to avoid data race when adding students.
+
+Replace JSON storage with PostgreSQL or SQLite (use gorm or sql package).
+
+(Optional) Build a REST API using net/http or Gin.
+
+Write unit tests for student creation and enrollment.
+
