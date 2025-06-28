@@ -1,20 +1,33 @@
 package main
 
-import (
-	"fmt"
-
-	helloworld "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Beginner/HelloWorld"
-	swapvar "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Beginner/SwapVar"
-)
+import calculator "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Beginner/Calculator"
 
 func Beginner() {
-	helloworld.HelloWorld()
-	var x interface{} = 100
-	var y interface{} = 500
+	// Hello World
+	// helloworld.HelloWorld()
 
-	swapvar.SwapVar(&x, &y)
+	// Swap Two Variable
+	// var x interface{} = 100
+	// var y interface{} = 500
 
-	fmt.Println("x: ", x, "y: ", y)
+	// swapvar.SwapVar(&x, &y)
+
+	// fmt.Println("x: ", x, "y: ", y)
+
+	// Even Odd
+	// evenodd.EvenOdd(2)
+	// evenodd.EvenOdd(1)
+	// evenodd.EvenOdd(0)
+
+	// Largest Number
+	// largestnumber.LargestNumber(1, 8, 3)
+
+	// calculator
+	a := calculator.NewCalculatorImplementation(2, 3)
+	a.Addition()
+	a.Substraction()
+	a.Multiplication()
+	a.Dividion()
 }
 
 func main() {
