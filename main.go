@@ -1,7 +1,5 @@
 package main
 
-import calculator "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Beginner/Calculator"
-
 func Beginner() {
 	// Hello World
 	// helloworld.HelloWorld()
@@ -23,11 +21,18 @@ func Beginner() {
 	// largestnumber.LargestNumber(1, 8, 3)
 
 	// calculator
-	a := calculator.NewCalculatorImplementation(2, 3)
-	a.Addition()
-	a.Substraction()
-	a.Multiplication()
-	a.Dividion()
+	// a := calculator.NewCalculatorImplementation(2, 3)
+	// a.Addition()
+	// a.Substraction()
+	// a.Multiplication()
+	// a.Dividion()
+
+	// Factorial With Recursion
+	// factorialwithrecursion.FactorialRecursionAns(6)
+
+	// Prime Number
+	// nums := 223
+	// fmt.Println("Prime Number ", nums, ": ", primenumber.Prime(int64(nums)))
 }
 
 func main() {
