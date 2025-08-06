@@ -1,11 +1,5 @@
 package main
 
-import (
-	"fmt"
-
-	structure "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Intermediate/Structure"
-)
-
 func Beginner() {
 	// Hello World
 	// helloworld.HelloWorld()
@@ -42,8 +36,20 @@ func Beginner() {
 }
 
 func Intermediate() {
-	Car := structure.NewCarStruct("Toyota", "Camry", 2022)
-	fmt.Println(Car.PrintCarDetails())
+	// Car Struct
+	// Car := structure.NewCarStruct("Toyota", "Camry", 2022)
+	// fmt.Println(Car.PrintCarDetails())
+
+	// Area Interface
+	// reactangle := areainterface.Rectangle{
+	// 	Width:  10,
+	// 	Height: 20,
+	// }
+	// fmt.Println("Area of Rectangle:", reactangle.Area())
+	// circle := areainterface.Circle{
+	// 	Radius: 5,
+	// }
+	// fmt.Println("Area of Circle:", circle.Area())
 }
 
 func main() {
