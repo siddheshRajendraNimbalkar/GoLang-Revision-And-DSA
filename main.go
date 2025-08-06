@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+
+	structure "github.com/siddheshRajendraNimbalkar/GoLang-Revision-And-DSA/Revision/Intermediate/Structure"
+)
+
 func Beginner() {
 	// Hello World
 	// helloworld.HelloWorld()
@@ -35,6 +41,12 @@ func Beginner() {
 	// fmt.Println("Prime Number ", nums, ": ", primenumber.Prime(int64(nums)))
 }
 
+func Intermediate() {
+	Car := structure.NewCarStruct("Toyota", "Camry", 2022)
+	fmt.Println(Car.PrintCarDetails())
+}
+
 func main() {
-	Beginner()
+	// Beginner()
+	Intermediate()
 }
